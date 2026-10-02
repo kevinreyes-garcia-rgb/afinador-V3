@@ -5,11 +5,7 @@
     --gris: #1f1f1f;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -147,17 +143,8 @@ header {
     transform: translateY(-5px);
 }
 
-.string-name {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--azul);
-}
-
-.string-note {
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin: 8px 0;
-}
+.string-name { font-size: 1.5rem; font-weight: bold; color: var(--azul); }
+.string-note { font-size: 2.4rem; font-weight: 700; margin: 8px 0; }
 
 button#micButton {
     margin: 20px auto;
